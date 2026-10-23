@@ -1,6 +1,6 @@
 """Reproducible cross-sectional healthy-diet basket analysis, using 2021 only.
 
-The supplied country CSV contains food-group costs for 2021 only.
+The cleaned country CSV (data/fpn_countries.csv) contains food-group costs for 2021 only.
 Missing costs are never filled with zeros, and group medians are unweighted.
 """
 from pathlib import Path

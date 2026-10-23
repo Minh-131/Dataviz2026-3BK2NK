@@ -1,4 +1,6 @@
-"""Optional World Bank food inflation + existing GDP and affordability analyses.
+"""GDP and affordability analysis. The food-inflation helpers below are kept for a possible future extension and are not shown in the dashboard.
+
+Optional World Bank food inflation + existing GDP and affordability analyses.
 
 Food inflation source (user-provided Excel): World Bank Global Database of Inflation,
 annual sheet 'fcpi_a'. This is food CPI inflation, not the CoAHD price index.

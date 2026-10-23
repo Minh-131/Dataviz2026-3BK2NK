@@ -1,4 +1,4 @@
-# The Food Atlas – Streamlit V7 (V6 + tiêu chuẩn của bản web)
+# Changelog – Streamlit V7 (V6 + the data story’s standards)
 
 Bản này ghép **thiết kế V6 của nhóm** với **toàn bộ chuẩn chữ và trải nghiệm** đã áp dụng cho bản web. Chép các file dưới đây vào đúng đường dẫn trong repo, ghi đè file cũ.
 

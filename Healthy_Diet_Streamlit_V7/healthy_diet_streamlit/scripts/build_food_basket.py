@@ -1,4 +1,4 @@
-"""Regenerate data/food_basket_costs_2021_derived.csv from the supplied source.
+"""Regenerate data/food_basket_costs_2021_derived.csv from data/fpn_countries.csv.
 
 Run from healthy_diet_streamlit/: python scripts/build_food_basket.py
 """
