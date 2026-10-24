@@ -1,0 +1,5 @@
+"pair","n","spearman_rho"
+"GDP per person vs share who cannot afford",142,-0.824
+"Diet cost vs share who cannot afford",147,0.172
+"Diet cost vs share (GDP-complete sample)",142,0.168
+"GDP per person vs diet cost (GDP-complete sample)",142,-0.081

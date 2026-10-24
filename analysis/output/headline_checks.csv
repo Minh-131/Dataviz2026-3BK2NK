@@ -1,0 +1,18 @@
+"figure","expected","actual","ok"
+"World cost 2017",2.94,2.94000005722046,TRUE
+"World cost 2025",4.28,4.28000020980835,TRUE
+"World share 2017 (%)",41,41,TRUE
+"World share 2025 (%)",32.7,32.7,TRUE
+"World people 2025 (mn)",2692.1,2692.1,TRUE
+"SSA extra people 2017-2025 (mn)",194.3,194.3,TRUE
+"SSA share of world 2025 (%)",35.4,35.4,TRUE
+"Nigeria cost 2025",4.18,4.18,TRUE
+"Cyprus cost 2025",4.18,4.18,TRUE
+"Nigeria share 2025 (%)",80.5,80.5,TRUE
+"Cyprus share 2025 (%)",1.5,1.5,TRUE
+"Niger PoU 2024 (%)",12.9,12.9,TRUE
+"Niger share 2024 (%)",86.7,86.7,TRUE
+"Niger stunting 2024 (%)",48.3,48.3,TRUE
+"GDP vs share rho 2025",-0.824,-0.824,TRUE
+"Stunting vs share rho 2024",0.784,0.784,TRUE
+"Countries above 50% in 2025",41,41,TRUE

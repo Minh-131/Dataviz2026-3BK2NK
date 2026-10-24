@@ -1,0 +1,10 @@
+"check","n","value"
+"Raw Pearson on GDP-complete matched sample",123,0.787
+"Leave-one-country-out Pearson minimum",124,0.782
+"Leave-one-country-out Pearson maximum",124,0.803
+"Pearson residual correlation controlling log GDP per capita",123,0.411
+"Within income group Spearman: High income",28,0.421
+"Within income group Spearman: Low income",19,0.729
+"Within income group Spearman: Lower middle income",36,0.594
+"Within income group Spearman: Upper middle income",42,0.442
+"PoU Spearman excluding censored <2.5 observations",76,0.688

@@ -20,6 +20,7 @@ Both the story and the dashboard use the same eight chapters – *The paradox, W
 | `raw/` | Original downloads, with instructions to re-download each one (`raw/README.md`) |
 | `scripts/` | `clean_fpn.py` → `merge_all.py` → `validate_data.py` (24 checks, including every headline number) |
 | `data/` | Cleaned datasets and `data_dictionary.md` |
+| `analysis/` | Analyst’s scripts (R and Python) and output tables; reproduces the report in `docs/Healthy_Diet_Analysis_final.html` |
 | `Healthy_Diet_Streamlit_V7/healthy_diet_streamlit/` | The Streamlit dashboard (entry point `app.py`) |
 | `docs/` | The offline data story and PDFs |
 
@@ -29,6 +30,13 @@ Both the story and the dashboard use the same eight chapters – *The paradox, W
 python scripts/clean_fpn.py
 python scripts/merge_all.py
 python scripts/validate_data.py --compare Healthy_Diet_Streamlit_V7/healthy_diet_streamlit/data
+```
+
+## Reproduce the analysis
+
+```
+Rscript analysis/analyst.R
+python analysis/verify_analysis.py
 ```
 
 ## Run the dashboard locally
