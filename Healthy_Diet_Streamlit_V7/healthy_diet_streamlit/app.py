@@ -21,6 +21,7 @@ from src.economics import (
 )
 from src.styles import get_css, LIGHT, DARK
 from src.story_styles import story_css
+from src.widget_contrast import widget_contrast_css
 from src.basket import basket_rows, basket_medians, country_basket_plot, income_group_plot, GROUPS
 from src.statistics import spearman_corr
 from src.narrative import (
@@ -39,6 +40,7 @@ if "dark_mode" not in st.session_state:
     st.session_state["dark_mode"] = False
 st.markdown(get_css(st.session_state["dark_mode"]), unsafe_allow_html=True)
 st.markdown(story_css(st.session_state["dark_mode"]), unsafe_allow_html=True)
+st.markdown(widget_contrast_css(st.session_state["dark_mode"]), unsafe_allow_html=True)
 
 
 @st.cache_data(show_spinner=False)
